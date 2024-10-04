@@ -37,7 +37,7 @@ const Service: React.FC = () => {
   return (
     <div>
       <main className="container mx-auto my-10 p-4">
-        <h1 className={`text-3xl font-bold text-center mb-20 transition-all duration-500 ${isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+        <h1 className={`text-3xl font-bold text-center my-20 transition-all duration-500 ${isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           Our Services
         </h1>
         

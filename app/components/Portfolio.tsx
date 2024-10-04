@@ -69,7 +69,7 @@ const Portfolios: React.FC = () => {
 
     return (
         <div className="container mx-auto my-10 p-4">
-        <h1 className="text-3xl font-bold text-center mb-20">Portfolios</h1>
+        <h1 className="text-3xl font-bold text-center my-20">Portfolios</h1>
         
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {portfolios.map((portfolio, index) => (
