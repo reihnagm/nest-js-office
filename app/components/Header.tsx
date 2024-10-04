@@ -17,11 +17,11 @@ const Header: React.FC = () => {
   return (
     <header className="bg-gray-800 text-white shadow-md">
       <nav className="container mx-auto flex justify-between items-center py-4">
-        <div className="text-lg font-bold">
+        <div className="text-lg font-bold mx-3">
           <Link href="/">MyWebsite</Link>
         </div>
         {/* Hamburger Icon */}
-        <div className="block md:hidden">
+        <div className="block md:hidden mx-3">
           <button onClick={toggleMenu} className="focus:outline-none">
             {isOpen ? (
               <svg
